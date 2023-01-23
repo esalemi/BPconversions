@@ -13,20 +13,29 @@
 <body>
 <h2>Buprenorphine Conversions</h2>
 
-<h3 for="drug1">Existing Dosage:</h3>
+<h3 for="drug1">Existing Drug:</h3>
 <div name="drug1">
-    <input id="drug1Dose" type="number" pattern="\d*"/></input>
+    <input id="dose1" type="number" pattern="\d*"/></input>
+    <br>
     <br>
     <select  id="drug1"></select>
 </div>
 
-<h3 for="drug2">Existing Dosage:</h3>
+<h3 for="drug2">New Drug:</h3>
 <div name="drug2">
-    <input id="drug2Dose" type="number" pattern="\d*"/></input>
     <br>
     <select  id="drug2"></select>
 </div>
-<span></span>
+<br>
+<br>
+<button onclick='calculate()'>Calculate</button>
+<hr>
+<div> 
+    <h3>Results</h3>
+    <p id="results"></p>
+</div> 
+
 </body>
 <script src="menus.js"></script>
+<script src="calculations.js"></script>
 </html>
