@@ -13,11 +13,11 @@ function calculate() {
     dose1 = dose1*1
     var DAE1 = drugDAE(drug1)
     var DAE2 = drugDAE(drug2)
-    var ratio = DAE1/DAE2
+    var ratio = DAE2/DAE1
     var result = DAE2/DAE1*dose1
     console.log(DAE1)
     console.log(DAE2)
-    $('results').innerHTML = `the equivalent of <b>${dose1.toFixed(2)}mg</b> of <b>${drug1}</b>  is <b>${result.toFixed(2)} mg</b> of <b>${drug2}</b>, the equivalency is <b>${ratio.toFixed(2)}mg</b> of ${drug2}  to 1mg of ${drug1}  `
+    $('results').innerHTML = `the equivalent to <b>${dose1.toFixed(2)}mg</b> of <b>${drug1}</b>  is <b>${result.toFixed(2)} mg</b> of <b>${drug2}</b>, the equianalgesic Opioid ratio is <b>${ratio.toFixed(2)}mg</b> of ${drug2}  to 1mg of ${drug1}  `
 }
 
 function drugDAE(drug) {
