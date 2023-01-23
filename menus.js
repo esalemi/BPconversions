@@ -2,25 +2,25 @@ var drugs = {
 
     BuprenorphineTablet:{
         
-        brandName:"Buprenorphine SL Tab",
+        brandName:"Buprenorphine (SL Tab)",
         Type:"SL Tab",
         FDAIndication:"OUD(2014)",
         DAE: 8
     },
     Suboxone:{
-        brandName:"Suboxone",
+        brandName:"Suboxone(SL Film)",
         Type:"SL Film",
         FDAIndication:"OUD(2002)",
         DAE: 8
     },
     Zubsolv:{
-        brandName:"Zubsolv",
+        brandName:"Zubsolv (SL Tab)",
         Type:"SL Tab",
         FDAIndication:"OUD(2013)",
         DAE:5.7
     },
     Bunavil:{
-        brandName:"Bunavil",
+        brandName:"Bunavil (Buccal Film)",
         Type:"Buccal Film",
         FDAIndication:"OUD(2014)",
         DAE: 4.2
@@ -29,19 +29,7 @@ var drugs = {
  }
 
 // comments
-var fruits =
-{
-    "1": {
-        "id": 1,
-        "Description": "Apple",
-        "groupID": 0
-    },
-    "2": {
-        "id": 2,
-        "Description": "Peach",
-        "groupID": 0
-    }
-};
+
 var _drug1 = document.getElementById('drug1')
 var _drug2 = document.getElementById('drug2')
 
